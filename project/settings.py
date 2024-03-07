@@ -86,10 +86,10 @@ CHANNEL_LAYERS = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        'USER': 
-        'PASSWORD': 
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'notification',
+        'USER': 'notification',
+        'PASSWORD': '1234',
     }
 }
 
